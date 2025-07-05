@@ -16,24 +16,19 @@ import { Separador } from './components/separador';
 export default function Home() {
 
   return (
-    
    <>
-
      <Casorio />
-     
      <Sobre />
-      
      <Fotos />
      <br /> <br />
       <Separador />
      <Padrinhos />
       <Separador />
      <Detalhes />
-      <Separador />
+     <Separador />
      <Sobrenos />
       <Separador />
      <Presentes />
-     <Separador />
     
     </>
  

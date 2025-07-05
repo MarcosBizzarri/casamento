@@ -1,8 +1,9 @@
 
 export function Sobre() {
     return (
+      
 <div className="max-w-screen-xl mx-auto md:px-12 lg:px-16 xl:px-28 2xl:px-20 pt-12 font-nunitoSans flex justify-center">
-
+        
 
   {/* LINKS no meio */}
   <div className="hidden lg:flex space-x-12 text-[#5643ff]  font-nunitoSans text-[16px] ">

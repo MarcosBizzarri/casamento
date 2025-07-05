@@ -34,12 +34,12 @@ export function Detalhes() {
   }, []);
 
   return (
-    <div id="detalhes" className="min-h-screen bg-[#FAEBD7] py-12 px-4 sm:px-6 lg:px-20">
-      <h1 className="text-4xl font-bold text-center font-josefin text-[#5643ff] mb-10">
+    <div id="detalhes" className="min-h-screen bg-[#FFFFF0] py-12 px-4 sm:px-6 lg:px-20">
+      <h1 className="text-3xl font-bold text-center font-josefin text-[#5643ff] mb-10">
         Detalhes do Casamento 💒
       </h1>
 
-      <div className="max-w-4xl mx-auto bg-[#dedaff] p-6 rounded-lg shadow-md">
+      <div className="max-w-4xl mx-auto bg-[#FFFFF0] p-6 rounded-lg shadow-md">
         {/* Imagem da igreja */}
         <div className="mb-6">
           <Image
@@ -52,18 +52,18 @@ export function Detalhes() {
         </div>
 
         {/* Informações principais */}
-        <div className="font-josefin text-[#5643ff] space-y-4 text-lg">
+        <div className="font-josefin text-[#7c7c7c] space-y-4 text-lg ">
           <p>
-            <strong>📅 Data:</strong> 20 de Setembro de 2025
+            <strong>📅 <span className="text-[#5643ff]">Data:</span></strong> 20 de Setembro de 2025 
           </p>
           <p>
-            <strong>⏰ Horário:</strong> 15:00h
+            <strong>⏰ <span className="text-[#5643ff]">Hora:</span></strong> 15:30h
           </p>
           <p>
-            <strong>📍 Local:</strong> Comunidade Santa Rita de Cássia
+            <strong>📍 <span className="text-[#5643ff]">Local:</span></strong> Comunidade Santa Rita de Cássia
           </p>
           <p>
-            <strong>🏠 Endereço:</strong> R. José Carlos Pace, 20 - Jardim Santa Rita de Cassia, Hortolândia - SP
+            <strong>🏠 <span className="text-[#5643ff]">Endereço:</span></strong> R. José Carlos Pace, 20 - Jardim Santa Rita de Cassia, Hortolândia - SP
           </p>
         </div>
 
@@ -82,30 +82,30 @@ export function Detalhes() {
       {/* Contagem regressiva com estilo */}
 <div className="mt-10 text-center text-gray-700">
   <h2 className="text-2xl mb-6 font-bold text-[#5643ff] font-josefin">
-    Contagem Regressiva para o Grande Dia 💍
+    Contagem regressiva para o grande dia 💍
   </h2>
 
   <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto">
     {/* Dias */}
-    <div className="bg-[#a7c0ff] rounded-xl p-4 shadow-md animate-pulse">
+    <div className="bg-[#ff96a9] rounded-xl p-4 shadow-md animate-pulse">
       <div className="text-4xl font-bold font-josefin text-[#5643ff]">{tempoRestante.dias}</div>
       <div className="mt-1 text-lg font-josefin font-bold text-[#5643ff]">Dias 🗓️</div>
     </div>
 
     {/* Horas */}
-    <div className="bg-[#a7c0ff] rounded-xl p-4 shadow-md animate-pulse">
+    <div className="bg-[#ff96a9] rounded-xl p-4 shadow-md animate-pulse">
       <div className="text-4xl font-bold font-josefin text-[#5643ff]">{tempoRestante.horas}</div>
       <div className="mt-1 text-lg font-josefin text-[#5643ff] font-bold">Horas ⏰</div>
     </div>
 
     {/* Minutos */}
-    <div className="bg-[#a7c0ff] rounded-xl p-4 shadow-md animate-pulse">
+    <div className="bg-[#ff96a9] rounded-xl p-4 shadow-md animate-pulse">
       <div className="text-4xl font-bold font-josefin text-[#5643ff]">{tempoRestante.minutos}</div>
       <div className="mt-1 text-lg font-josefin text-[#5643ff] font-bold">Minutos ⏱️</div>
     </div>
 
     {/* Segundos */}
-    <div className="bg-[#a7c0ff] rounded-xl p-4 shadow-md animate-pulse">
+    <div className="bg-[#ff96a9] rounded-xl p-4 shadow-md animate-pulse">
       <div className="text-4xl font-bold text-[#5643ff] font-josefin">{tempoRestante.segundos}</div>
       <div className="mt-1 text-lg font-josefin text-[#5643ff] font-bold">Segundos ⏳</div>
     </div>
