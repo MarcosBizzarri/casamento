@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Whatsapp from "../img/WhatsApp.svg";
+// import Whatsapp from "../img/WhatsApp.svg";
 
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../lib/firebaseConfig"; // ajuste o caminho conforme seu projeto
@@ -256,7 +256,7 @@ mostrarPopup("success", "Obrigado pelo seu recado!");
             </div>
 
             {/* WhatsApp */}
-            <div className="mt-6 text-center">
+            {/* <div className="mt-6 text-center">
               <a
                 href="https://chat.whatsapp.com/GeVxe8be86E7eINriU8h1x"
                 target="_blank"
@@ -272,7 +272,7 @@ mostrarPopup("success", "Obrigado pelo seu recado!");
                 />
                 <p className="text-[#5643ff] mt-2">Entrar no grupo</p>
               </a>
-            </div>
+            </div> */}
           </form>
         </div>
 
