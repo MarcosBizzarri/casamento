@@ -11,6 +11,7 @@ import {  Detalhes } from './components/calendario';
 import { Sobrenos } from './components/sobrenos';
 import { Presentes } from './components/presentes';
 import { Separador } from './components/separador';
+import { Restaurante } from './components/restaurante';
 
 
 export default function Home() {
@@ -26,6 +27,8 @@ export default function Home() {
       <Separador />
      <Detalhes />
      <Separador />
+     <Restaurante />
+      <Separador />
      <Sobrenos />
       <Separador />
      <Presentes />

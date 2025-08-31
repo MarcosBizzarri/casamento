@@ -10,9 +10,11 @@ export function Sobre() {
     <a href="#"  className="font-bold px-8 py-4  transition-colors duration-300 rounded-[48px] font-josefin border-[#5643ff] hover:bg-[#a7c0ff]  ">Casamento</a>
     <a href="#padrinhos" className="font-bold  px-8 py-4  transition-colors duration-300 rounded-[48px] font-josefin  border-[#5643ff] hover:bg-[#a7c0ff]">Padrinhos</a>
     <a href="#detalhes"  className="font-bold px-8 py-4  transition-colors duration-300 rounded-[48px] font-josefin border-[#5643ff] hover:bg-[#a7c0ff]" >Detalhes</a>
+    <a href="#jantar" className="font-bold px-8 py-4 transition-colors duration-300 rounded-[48px] font-josefin border-[#5643ff] hover:bg-[#a7c0ff]">Jantar</a>
     <a href="#sobrenos"  className="font-bold  px-8 py-4  transition-colors duration-300 rounded-[48px] font-josefin border-[#5643ff] hover:bg-[#a7c0ff]">Sobre nós</a>
     <a href="#presentes"  className="font-bold px-8 py-4  transition-colors duration-300 rounded-[48px] font-josefin  border-[#5643ff] hover:bg-[#a7c0ff]">Presentes</a>
     
+
   </div>
 </div>
 )
